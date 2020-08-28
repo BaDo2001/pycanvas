@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'pycanvas_BaDo2001',         # How you named your package folder (MyLib)
   packages = ['pycanvas_BaDo2001'],   # Chose the same as "name"
-  version = '0.0.1',      # Start with a small number and increase it with every change you make
+  version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Library to develop games in python for the web',   # Give a short description about your library
   author = 'Balint Dolla',                   # Type in your name
