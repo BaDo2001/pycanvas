@@ -1,6 +1,6 @@
-from pycanvas.server import create_server, handle_interrupt
+from pycanvas_BaDo2001.server import create_server, handle_interrupt
 import tornado.ioloop
-from pycanvas.canvas import Canvas
+from pycanvas_BaDo2001.canvas import Canvas
 
 def start_app(entry_point):
     print("Go to http://127.0.0.1:5000 to visit the canvas.")

@@ -1,3 +1,3 @@
-from pycanvas.app import start_app
-from pycanvas.canvas import Canvas    
-from pycanvas.utils import to_hex
+from pycanvas_BaDo2001.app import start_app
+from pycanvas_BaDo2001.canvas import Canvas    
+from pycanvas_BaDo2001.utils import to_hex

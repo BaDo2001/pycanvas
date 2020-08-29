@@ -1,4 +1,4 @@
-from pycanvas.utils import get_encoded_img, convert_event_data
+from pycanvas_BaDo2001.utils import get_encoded_img, convert_event_data
 import tornado.ioloop
 
 class Canvas:
