@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'pycanvas_BaDo2001',         # How you named your package folder (MyLib)
   packages = ['pycanvas_BaDo2001'],   # Chose the same as "name"
-  version = '0.0.4',      # Start with a small number and increase it with every change you make
+  version = '0.0.5',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Library to develop games in python for the web',   # Give a short description about your library
   author = 'Balint Dolla',                   # Type in your name
   author_email = 'balint.dolla@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/BaDo2001/pycanvas',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/BaDo2001/pycanvas/archive/0.0.4.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/BaDo2001/pycanvas/archive/0.0.5.tar.gz',    # I explain this later on
   keywords = ["Canvas", "Python", "Game development"],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           "tornado",
@@ -26,4 +26,5 @@ setup(
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
   ],
+  include_package_data=True
 )
