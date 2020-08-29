@@ -1,1 +1,4 @@
-include pycanvas_BaDo2001/static/*
+include pycanvas_BaDo2001/static/index.html
+include pycanvas_BaDo2001/static/style.css
+include pycanvas_BaDo2001/static/app.js
+include pycanvas_BaDo2001/static/favicon.ico
